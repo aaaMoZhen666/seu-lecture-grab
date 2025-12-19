@@ -1,0 +1,12 @@
+{
+  "loginSEU": {
+    "id": "<一卡通号>",
+    "pwd": "<一卡通密码>"
+  },
+  "chaojiying": {
+    "user": "<超级鹰账号>",
+    "pass": "<超级鹰密码>",
+    "softid": "<超级鹰软件ID>",
+    "codetype": 1004
+  }
+}

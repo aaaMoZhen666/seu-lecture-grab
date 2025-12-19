@@ -1,0 +1,29 @@
+[project]
+name = "seu-lecture-grab"
+version = "0.0.1"
+requires-python = ">= 3.11"
+readme = "README.md"
+authors = [{ name = "MoZhen" }]
+dependencies = [
+    "requests>=2.32.5,<3",
+    "brotli>=1.1.0,<2",
+    "playwright>=1.55.0,<2",
+    "apscheduler>=3.11.0,<4",
+]
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.dependencies]
+python = "3.11.*"
+
+[tool.pixi.pypi-dependencies]
+requests = ">=2.32.5,<3"
+brotli = ">=1.1.0,<2"
+playwright = ">=1.55.0,<2"
+apscheduler = ">=3.11.0,<4"
